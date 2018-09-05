@@ -1,18 +1,27 @@
 {
-  "name": "pubnub-post",
+  "name": "vrigil-demo-pubnub-server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup": "node init.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "@virgilsecurity/keyknox": "^0.1.1",
+    "@virgilsecurity/keyknox": "^0.1.2",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "express-rate-limit": "^3.1.0",
     "virgil-crypto": "^3.0.0",
     "virgil-pythia": "^0.2.2",
     "virgil-sdk": "^5.0.0"
+  },
+  "devDependencies": {
+    "chalk": "^2.4.1",
+    "inquirer": "^6.2.0",
+    "tempy": "^0.2.1"
   }
 }
