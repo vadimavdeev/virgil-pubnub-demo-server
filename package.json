@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "chalk": "^2.4.1",
-    "inquirer": "^6.2.0",
+    "inquirer": "^6.2.2",
     "tempy": "^0.2.1"
   }
 }
